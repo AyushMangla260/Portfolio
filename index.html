@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="nav center">
-        <p class="logo">LOGO</p>
+        <p class="logo">PORTFOLIO</p>
         <input type="checkbox" name="" class="checkBtn"/>
         <ol class="center">
             <a href="#About"><li>About</li></a>
@@ -18,11 +18,13 @@
             <a href="#Contact"><li>Contact</li></a>
         </ol>
     </header>
+    <hr>
     <section class="main">
         <div class="box">
             <h1>Ayush Mangla</h1>
             <p>Front-End Developer , App Developer & Data Scientist</p>
             <a href="#About"><button class="btn">About</button></a>
+            <a href="./Ayush's Resume.pdf" download="Ayush's Resume"><button class="btn">My Resume</button></a>
         </div>
         <img src="profile.jpg"  alt="">
     </section>
@@ -53,13 +55,13 @@
     <div class="education center" id="Education">
         <div class="left_box">
             <h1 class="heading">Education</h1>
-            <div class="container">
+            <div class="container" style="color: white;">
                 <h3>The Northcap University, Sector-23A, Gurugram</h3>
                 <p>B.TECH. Computer science(specialization : Data Science and artifical Intelligence)</p>
                 <p>CGPA 8.7</p>
                 <small>July 2019-Present</small>
             </div>
-            <div class="container">
+            <div class="container" style="color: white;"s>
                 <h3>Mvn sector 17 faridabad</h3>
                 <p>Science</p>
                 <small>2019</small>
@@ -76,6 +78,9 @@
             <a href="https://github.com/AyushMangla260/gameconnect-Tic-Tac-Toe-game", target="_blank">
                 <div>Tic-Tac-Toe-game</div>
             </a>
+            <a href="https://github.com/AyushMangla260/appleReplica", target="_blank">
+                <div>Apple-Replica-Website</div>
+            </a>
         </div>
     </div>
 
@@ -83,13 +88,22 @@
     <div class="contact center" id="Contact">
         <h3>Contact</h3>
         <div class="icons">
-            <i onclick="google()" class="fab fa-google"></i>
-            <i onclick="linkedin()" class="fab fa-linkedin"></i>
+            <i id= "linkdn_handle" onclick="linkedin()" class="fab fa-linkedin"></i>
             <i onclick="github()" class="fab fa-github"></i>
-            <i onclick="instagram()" class="fab fa-instagram"></i>
-            <i onclick="facebook()" class="fab fa-facebook"></i>
+            <i id="insta_handle" onclick="instagram()" class="fab fa-instagram"></i>
+            <i onclick="google()" class="fab fa-google"></i>
+            <i id="facebook" onclick="facebook()" class="fab fa-facebook"></i>
+        </div>
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
         </div>
     </div>
+    <footer>
+        <a href="#Contact">Contact Me</a>
+        <a href="#">Terms of Use</a>
+        <a href="#" class="flex-align-left">&copy; Ayush Mangla</a>
+    </footer>
     <script type="text/javascript" src="./port.js"></script>
 </body>
 </html>
+
