@@ -65,6 +65,9 @@ body{
     font-size: 4.5em;
     margin-top: 0.2em;
 }
+.box h1:hover{
+    color: black;
+}
 .box p{
     font-size: 1.2em;
     color: var(--sec-font-color);
@@ -340,16 +343,13 @@ footer {
         width: 22em;
     }
 }
-@media (max-width: 400px){
-    body{
-        font-size: 10px;
-    }
-    .main{
-        height: 450px;
-    }
-}
+
 
   @media screen and (max-width: 700px) {
+      .main img {
+        height: auto;
+        width: 100%;
+      }
     footer {
       flex-direction: column;
       padding: 10px 0px;
