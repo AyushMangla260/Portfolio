@@ -296,7 +296,9 @@ footer {
   #facebook:hover{
     text-shadow: 0 0 15px  #3b5998;
   }
-
+ @media (max-width: 1250px){
+    .main img{ width: 25em; right: 0; }
+}
 @media (max-width: 1350px){
     body{ font-size: 14px; }
     .main img{ width: 35em; top: 80px; }
