@@ -61,12 +61,12 @@ body{
     align-items: center;
     position: relative;
 }
+.box h1:hover{
+    color: black;
+}
 .box h1{
     font-size: 4.5em;
     margin-top: 0.2em;
-}
-.box h1:hover{
-    color: black;
 }
 .box p{
     font-size: 1.2em;
@@ -155,7 +155,6 @@ body{
     background: var(--main-color);
     left: -20px;
 }
-
 
 .education .right_box{
     width: 40%;
@@ -296,7 +295,7 @@ footer {
   #facebook:hover{
     text-shadow: 0 0 15px  #3b5998;
   }
- @media (max-width: 1250px){
+  @media (max-width: 1250px){
     .main img{ width: 25em; right: 0; }
 }
 @media (max-width: 1350px){
@@ -338,8 +337,14 @@ footer {
         width: 60%;
     }
 }
+
+
+
   @media screen and (max-width: 700px) {
-      .main img {
+      .box h1{
+          font-size: 52px;
+      }
+    .main img {
         height: auto;
         width: 100%;
       }
